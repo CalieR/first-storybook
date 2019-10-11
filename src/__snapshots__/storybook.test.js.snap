@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Image default 1`] = `
+<div
+  style={
+    Object {
+      "border": "3px solid black",
+    }
+  }
+>
+  <div>
+    <img
+      alt="logo"
+      src="https://cdn2.f-cdn.com/contestentries/1194974/25654594/5a1e2cf9b0f8b_thumb900.jpg"
+    />
+  </div>
+</div>
+`;
