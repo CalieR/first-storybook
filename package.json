@@ -1,5 +1,8 @@
 {
   "name": "first-storybook",
+   "jest": {
+        "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
+    },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,6 +41,11 @@
     "@storybook/addons": "^5.2.3",
     "@storybook/react": "^5.2.3",
     "babel-plugin-macros": "^2.6.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "expect": "^24.9.0",
+    "jest-environment-enzyme": "^7.1.1",
+    "jest-enzyme": "^7.1.1",
     "react-test-renderer": "^16.10.2",
     "require-context.macro": "^1.2.2"
   }

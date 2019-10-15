@@ -1,6 +1,7 @@
 # First Storybook
 
 First attempt at using Storybook to build out some React components with tests
+Use the components to build the app
 
 ## Steps
 
@@ -17,3 +18,12 @@ First attempt at using Storybook to build out some React components with tests
 - Create accompanying story file with default story
 - Add testing with Storyshots and Jest
 - Select useful addons
+
+1. Input component with label
+
+- Needs placeholder, name and type attributes
+- include an onChange to collect the input
+
+1. Button
+
+- Variations for submit, convert

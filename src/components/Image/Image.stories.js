@@ -18,3 +18,5 @@ storiesOf("Image", module)
   .add("default", () => {
     return <Image image={object("image", { ...image })} />;
   });
+
+  // add a story for small sizing

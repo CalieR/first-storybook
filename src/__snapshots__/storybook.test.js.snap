@@ -1,5 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Button disabled 1`] = `
+<button
+  style={
+    Object {
+      "background": "gray",
+      "border": "gray",
+      "cursor": "not-allowed",
+    }
+  }
+>
+  <span>
+    Disabled Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots Button primary 1`] = `null`;
+
+exports[`Storyshots Button with outline 1`] = `
+<button
+  style={
+    Object {
+      "background": "transparent",
+      "border": "3px solid #fecd43",
+    }
+  }
+>
+  <span>
+    Ouline Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots Button with round corners 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "borderRadius": "15px",
+    }
+  }
+>
+  <span>
+    Rounded Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots Button with rounder corners 1`] = `
+<button
+  style={
+    Object {
+      "borderRadius": "15px",
+    }
+  }
+>
+  <span>
+    Rounded Button
+  </span>
+</button>
+`;
+
 exports[`Storyshots Image default 1`] = `
 <div
   style={
@@ -14,5 +76,14 @@ exports[`Storyshots Image default 1`] = `
       src="https://cdn2.f-cdn.com/contestentries/1194974/25654594/5a1e2cf9b0f8b_thumb900.jpg"
     />
   </div>
+</div>
+`;
+
+exports[`Storyshots Input default 1`] = `
+<div>
+  <input
+    placeholder="placeholder text"
+    type="text"
+  />
 </div>
 `;
