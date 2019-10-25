@@ -26,4 +26,10 @@ Use the components to build the app
 
 1. Button
 
-- Variations for submit, convert
+- Variations for submit, convert etc
+
+1. Put these components into a basic screen layout and render in the app
+
+- Show an input field
+- When you type something in the input and press submit, show an alert.
+- Add the image in some way
